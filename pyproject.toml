@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "projeto-ia"
+version = "0.1.0"
+description = ""
+authors = ["Lewiscr7 <henrique.cordeiro21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+streamlit = "^1.37.1"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
